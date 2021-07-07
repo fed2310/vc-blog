@@ -1,0 +1,17 @@
+.leadership-main-heading {
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+    letter-spacing: 1px;
+    
+}
+
+.leadership-main-heading-wrapper{
+    padding-left: 20px;
+}
+
+@media (min-width: 768px) {
+   .leadership-main-wrapper{
+       padding: 20px;
+   }  
+}

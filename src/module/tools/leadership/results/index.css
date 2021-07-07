@@ -1,0 +1,41 @@
+.leadership-result-wrapper{
+    background-color: var(--shadow);
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.wheel-wrapper{
+   margin-top: 20px;
+}
+
+.leadership-form-wrapper{
+    width: 100%;
+}
+
+.leadership-details-text{
+    color: white;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.leadership-details-text label{
+    color: white;
+    font-size: 24px;
+}
+
+
+.leadership-result-text{
+    color: var(--orange);
+    text-align: center;
+    font-size: 1.5rem;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.modal-policy{
+    font-size: 0.6rem !important;
+}
+
+.leadership-wheel-heading{
+    color: white;
+}

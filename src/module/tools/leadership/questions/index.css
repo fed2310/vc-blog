@@ -1,0 +1,30 @@
+.questions{
+    background-color: white;
+    border-radius: 20px;
+    margin-top: 10px;
+}
+
+.question-heading{
+    font-size: 1.2rem;
+    margin-top: 2px;
+}
+
+.question-options{
+    font-size: 1rem;
+}
+
+.leadership-question-number{
+    margin-top: 10px;
+    margin-bottom: 1px;
+}
+
+/* large screen styles */
+@media (min-width: 768px) {
+    .questions{
+        background-color: white;
+        margin: 2px;
+        border-radius: 20px;
+        margin: 10px 0px 10px 10px;
+        /* width: 80%; */
+    }
+}

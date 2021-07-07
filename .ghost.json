@@ -1,0 +1,10 @@
+{
+  "development": {
+    "apiUrl": "https://blogdo.vantagecircle.com",
+    "contentApiKey": "0d9f8b625510078a8553f5557c"
+  },
+  "production": {
+    "apiUrl": "https://blogdo.vantagecircle.com",
+    "contentApiKey": "0d9f8b625510078a8553f5557c"
+  }
+}

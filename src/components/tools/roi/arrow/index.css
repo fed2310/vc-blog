@@ -1,0 +1,19 @@
+#main-line{
+    stroke-dasharray: 100;
+    animation: dash 2s linear;
+    animation-direction: reverse;
+    animation-iteration-count: infinite;
+  }
+
+
+#arrow-head{
+    animation: arrow 2s linear;
+    animation-iteration-count: infinite;
+}
+
+@keyframes arrow {
+    0%, 100% {transform: translateY(0);} 
+    10%, 30%, 50%, 70%, 90% {transform: translateY(-1px);} 
+    20%, 40%, 60%, 80% {transform: translateY(1px);} 
+ } 
+ 

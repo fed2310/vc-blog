@@ -1,0 +1,522 @@
+[build]
+  command = "NODE_ENV=production gatsby build"
+  publish = "public/"
+
+[template]
+  incoming-hooks = ["Ghost"]
+  
+[[redirects]]
+  from = "/how-to-synchronise-the-vantage-fit-steps-in-your-android-mobile/"
+  to = "https://blog.vantagefit.io/how-to-synchronise-the-vantage-fit-steps-in-your-android-mobile/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/strategies-employee-experience/"
+  to = "/employee-experience/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/employee-absenteeism-reasons-and-remedies/"
+  to = "/employee-absenteeism-hr-guide/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/10-employee-engagement-trends-2019/"
+  to = "/employee-engagement-trends/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/employee-engagement-concept-re-defined/"
+  to = "/employee-engagement/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/low-cost-wellness-at-workplace-ideas/"
+  to = "/wellness-at-workplace/"
+  status = 301
+  force = true
+
+
+[[redirects]]
+  from = "/healthy-breakfast-ideas-for-work/"
+  to = "https://blog.vantagefit.io/healthy-breakfast-ideas-for-work/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/importance-work-life-balance/"
+  to = "https://blog.vantagefit.io/importance-work-life-balance/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/the-benefits-of-outdoor-activities/"
+  to = "https://blog.vantagefit.io/the-benefits-of-outdoor-activities/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/the-benefits-of-outdoor-activities/"
+  to = "https://blog.vantagefit.io/the-benefits-of-outdoor-activities/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/year-of-wellness-2020/"
+  to = "https://blog.vantagefit.io/year-of-wellness-2020/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/workplace-ergonomics/"
+  to = "https://blog.vantagefit.io/workplace-ergonomics/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/step-challenge/"
+  to = "https://blog.vantagefit.io/step-challenge/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/importance-of-body-language-at-work/"
+  to = "https://blog.vantagefit.io/importance-of-body-language-at-work/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/mindfulness-in-the-workplace/"
+  to = "https://blog.vantagefit.io/mindfulness-in-the-workplace/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/what-is-a-biometric-test/"
+  to = "https://blog.vantagefit.io/what-is-a-biometric-test/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/health-and-wellness-app-features/"
+  to = "https://blog.vantagefit.io/health-and-wellness-app-features/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/supplements-for-office-workers/"
+  to = "https://blog.vantagefit.io/supplements-for-office-workers/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/sedentary-lifestyle/"
+  to = "https://blog.vantagefit.io/sedentary-lifestyle/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/seasonal-affective-disorder-in-workplace/"
+  to = "https://blog.vantagefit.io/seasonal-affective-disorder-in-workplace/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/health-and-wellness-program/"
+  to = "https://blog.vantagefit.io/benefits-of-employee-wellness-programs/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/office-fitness-challenge/"
+  to = "https://blog.vantagefit.io/office-fitness-challenge/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/office-weight-loss-challenge/"
+  to = "https://blog.vantagefit.io/office-weight-loss-challenge/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/healthy-at-work/"
+  to = "https://blog.vantagefit.io/healthy-at-work/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/healthy-lunches-for-work/"
+  to = "https://blog.vantagefit.io/healthy-lunches-for-work/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/yoga-in-the-workplace/"
+  to = "https://blog.vantagefit.io/yoga-in-the-workplace/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/office-exercises/"
+  to = "https://blog.vantagefit.io/office-exercises/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/health-fair-ideas/"
+  to = "https://blog.vantagefit.io/health-fair-ideas/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/wellness-challenge/"
+  to = "https://blog.vantagefit.io/wellness-challenge/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/benefits-of-employee-wellness-programs/"
+  to = "https://blog.vantagefit.io/benefits-of-employee-wellness-programs/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/healthy-snacks-for-work/"
+  to = "https://blog.vantagefit.io/healthy-snacks-for-work/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/step-challenge/"
+  to = "https://blog.vantagefit.io/step-challenge/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/workplace-stress/"
+  to = "https://blog.vantagefit.io/workplace-stress/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/employee-health/"
+  to = "https://blog.vantagefit.io/employee-health/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/cycle-to-work-scheme/"
+  to = "https://blog.vantagefit.io/cycle-to-work-scheme/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/cycle-to-work-scheme/"
+  to = "https://blog.vantagefit.io/cycle-to-work-scheme/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/health-in-the-workplace/"
+  to = "https://blog.vantagefit.io/health-in-the-workplace/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/wellness-at-workplace/"
+  to = "https://blog.vantagefit.io/wellness-at-workplace/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/vantage-fit-employee-wellness-program/"
+  to = "https://blog.vantagefit.io/vantage-fit-employee-wellness-program/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/six-hour-workday/"
+  to = "https://blog.vantagefit.io/six-hour-workday/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/managers-support-mental-health-workplace/"
+  to = "https://blog.vantagefit.io/managers-support-mental-health-workplace/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/the-four-day-work-week-might-be-the-future/"
+  to = "https://blog.vantagefit.io/the-four-day-work-week-might-be-the-future/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/how-to-synchronise-the-vantage-fit-steps-in-your-android-mobile/"
+  to = "https://blog.vantagefit.io/how-to-synchronise-the-vantage-fit-steps-in-your-android-mobile/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/how-to-synchronise-the-vantage-fit-steps-in-your-android-mobile/"
+  to = "https://blog.vantagefit.io/how-to-synchronise-the-vantage-fit-steps-in-your-android-mobile/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/creating-corporate-wellness-program/"
+  to = "https://blog.vantagefit.io/creating-corporate-wellness-program/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/work-from-home-policy/"
+  to = "/work-from-home/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/empowering-employees/"
+  to = "/employee-empowerment/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/best-motivational-quotes-for-work-2020-edition/"
+  to = "/motivational-quotes-for-work/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/farewell-messages-to-colleague/"
+  to = "/farewell-messages/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/ultimate-guide-corporate-gift-ideas-2018/"
+  to = "/corporate-gift-ideas/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/team-building-activities-for-remote-employees/"
+  to = "/virtual-team-building-activities/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/25-employee-engagement-activities/"
+  to = "/employee-engagement-activities/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/emotions-in-the-workplace/"
+  to = "https://blog.vantagefit.io/emotions-in-the-workplace/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/top-hr-trends-2019/"
+  to = "/top-hr-trends/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/7-effects-of-employee-recognition-on-business/"
+  to = "/effects-of-employee-recognition-on-business/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/definitions-of-employee-engagement/"
+  to = "/employee-engagement/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/how-to-increase-work-efficiency/"
+  to = "/employee-productivity/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/the-right-ways-to-measure-employee-engagement-remotely/"
+  to = "/measure-employee-engagement-remotely/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/benefits-of-working-from-home-for-employees/"
+  to = "/work-from-home/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/best-rewards-and-recognition-program-ideas/"
+  to = "/rewards-and-recognition-ideas/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/10-ways-to-instill-work-ethics/"
+  to = "/work-ethics/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/ultimate-guide-corporate-diwali-gifts/"
+  to = "/corporate-diwali-gifts-for-employees/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/25-work-ethic-quotes-keep-employees-motivated/"
+  to = "/work-ethic-quotes/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/20-employee-retention-strategies/"
+  to = "/employee-retention-strategies/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/employee-retention-ideas/"
+  to = "/employee-retention-strategies/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/26-employee-appreciation-ideas/"
+  to = "/employee-appreciation-ideas/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/7-employee-engagement-strategies-that-wont-fail/"
+  to = "/employee-engagement-strategies/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/7-hr-practices-business-needs-to-put-in-place/"
+  to = "/hr-practices-business-needs-to-put-in-place/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/7-impactful-ways-to-deliver-meaningful-employee-feedback/"
+  to = "/deliver-meaningful-employee-feedback/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/8-top-employee-retention-factors/"
+  to = "/top-employee-retention-factors/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/decoding-remote-work-statistics-2/"
+  to = "/decoding-remote-work-statistics/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/managers-role-2018-statistics/"
+  to = "/managers-role-statistics/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/managers-role-2018-statistics/"
+  to = "/managers-role-statistics/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/leadership-style-types/"
+  to = "/leadership-styles/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/26-employee-appreciation-ideas-2019/"
+  to = "/employee-appreciation-ideas/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/employee-recognition-6-powerful-ways-to-establish-it/"
+  to = "/six-ways-implement-employee-recognition/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/10-employee-engagement-trends-2019/"
+  to = "/employee-engagement-trends/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/reasons-hostile-work-environment/"
+  to = "/hostile-work-environment/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/10-home-office-ideas-for-motivation/"
+  to = "/home-office-ideas/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/team-motivational-quotes/"
+  to = "/teamwork-quotes/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/measure-employee-engagement-pulse-survey/"
+  to = "/pulse-surveys/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/setting-smart-goals/"
+  to = "/smart-goals/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/tag/health-and-wellness/"
+  to = "https://blog.vantagefit.io/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/common-hr-challenges/"
+  to = "/challenges-of-hr/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/what-is-employee-experience/"
+  to = "/employee-experience/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/api/*"
+  to = "https://api.vantagecircle.com/api/:splat"
+  status = 200

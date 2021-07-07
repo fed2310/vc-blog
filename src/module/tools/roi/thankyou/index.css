@@ -1,0 +1,96 @@
+.thankyou{
+    overflow-x: hidden;
+    overflow-y: scroll;
+    height: fit-content;
+}
+
+.right-col-wrapper{
+    background-color: #F4F7FF !important;
+}
+
+.right-col-wrapper .quote-img{
+    position: relative;
+    left: 41%;
+    bottom: 5vh;
+}
+
+.right-col-wrapper .testimonial-texts{
+    padding: 0px 12px;
+    font-size: 15px;
+    text-align: center;
+    opacity: 0.8;
+}
+
+.shruti-img{
+    padding-top: -10px;
+}
+
+.img-name{
+    letter-spacing: 1px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+.shruti-designation{
+    font-size: 11px;
+    padding-top: 0px;
+    margin-top: -24px;
+    opacity: 0.8;
+    text-align: center;
+}
+
+.mid-section{
+    margin: auto;
+}
+
+.thankyou .card-wrapper{
+    background-color: #fff;
+    margin-bottom: 10px;
+}
+
+.card-know-more{
+    color: #5A3A97;
+    font-weight: 700;
+    font-size: 0.8rem;
+}
+
+.card-img{
+    padding: 4px 2px 2px 2px;
+}
+
+.card-text{
+    font-size: 14px;
+    padding: 1px 2px 2px 2px;
+ }
+
+.card-know-more:hover{
+   cursor: pointer;
+   background-color: #fff;
+   transform: translateY(-2px);
+   color: #5A3A97;
+}
+
+/* large screens */
+@media (min-width: 768px) {
+    .shruti-designation{
+        font-size: 11px;
+        padding-top: 0px;
+        margin-top: -24px;
+        opacity: 0.8;
+        text-align: start;
+    }    
+    /* .card-text{
+        font-size: 12px;
+        line-height: 25px;
+        margin-top: -19px;
+    } */
+    /* .card-img{
+        padding: 10px 0px 10px 10px;
+    } */
+    /* .card-img{
+        display: flex;
+        flex-direction: row;
+        flex: 1;
+        height: 100px;
+    } */
+}

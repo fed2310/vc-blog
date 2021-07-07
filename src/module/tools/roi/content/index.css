@@ -1,0 +1,161 @@
+.content-wrapper{
+    margin-top: 100px;
+    background-color: #F4F7FF;
+    text-align: center;
+}
+
+.dash{
+    width: 160px;
+    border-top: 4px solid #F4F7FF;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+}
+
+.read-more-text{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+}
+
+
+.employee-engagement-highlight{
+    background-color: var(--purple);
+    width: fit-content;
+    height: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    margin-top: 100px;
+    padding: 5px 20px;
+    border-radius: 20px;
+    color: white;
+    cursor: pointer;
+}
+
+.calculation-methodology h1, .calculation-methodology p{
+    text-align: start;
+}
+
+.employee-engagement-ideas{
+    position: relative;
+    background-color: white;
+    padding: 4px 0px 0px 0px;
+    margin: auto;
+    border-radius: 15px;
+    margin-bottom: 30px;
+}
+
+.employee-engagement-ideas-icon{
+    display: none;
+}
+
+.employee-engagement-ideas-text{
+    padding: 0px;
+    font-size: 14px;
+    text-align: center;
+}
+
+
+.icon1{
+    background-image: url("https://res.cloudinary.com/vantagecircle/image/upload/v1617774159/blog_images/roi/Icon_01.png");
+}
+
+.icon2{
+    background-image: url("https://res.cloudinary.com/vantagecircle/image/upload/v1617774159/blog_images/roi/Icon_02.png");
+}
+
+.icon3{
+    background-image: url("https://res.cloudinary.com/vantagecircle/image/upload/v1617774159/blog_images/roi/Icon_03.png");
+}
+
+.icon4{
+    background-image: url("https://res.cloudinary.com/vantagecircle/image/upload/v1617774159/blog_images/roi/Icon_04.png");
+}
+
+.icon5{
+    background-image: url("https://res.cloudinary.com/vantagecircle/image/upload/v1617774159/blog_images/roi/Icon_05.png");
+}
+
+.roi-table{
+    background-color: #F2EAFE;
+}
+
+@media (max-width: 768px) {
+    .read-more-text{
+        color: white;
+     }
+
+    .content-wrapper h1{
+        font-size: 31px;
+    }
+
+    .employee-engagement-ideas-text{
+        margin-bottom: 3px;
+    }
+}
+
+/* images */
+.productivity-image{
+    background-image: url('https://res.cloudinary.com/vantagecircle/image/upload/v1617774159/blog_images/roi/img.png');
+    width: 100%;
+    height: 210px;
+    background-size: cover;                  
+    background-repeat: no-repeat;
+    background-position: center center;  
+}
+
+.absenteeism-image{
+    background-image: url('https://res.cloudinary.com/vantagecircle/image/upload/v1617774159/blog_images/roi/Img_02.png');
+    width: 100%;
+    height: 210px;
+    background-size: cover;                  
+    background-repeat: no-repeat;
+    background-position: center center;  
+}
+
+.turnover-image{
+    background-image: url('https://res.cloudinary.com/vantagecircle/image/upload/v1617774159/blog_images/roi/Img_03.png');
+    width: 100%;
+    height: 210px;
+    background-size: cover;                  
+    background-repeat: no-repeat;
+    background-position: center center;  
+}
+
+.annual-image{
+    background-image: url('https://res.cloudinary.com/vantagecircle/image/upload/v1617774159/blog_images/roi/Img_04.png');
+    width: 100%;
+    height: 210px;
+    background-size: cover;                  
+    background-repeat: no-repeat;
+    background-position: center center;  
+}
+
+/* styles for large screens */
+
+@media (min-width: 768px) {
+    .content-wrapper{
+        margin-top: 100px;
+        background-color: #F4F7FF;
+        padding: 50px 70px;
+        text-align: center;
+    }
+
+    .employee-engagement-ideas-icon{
+        display: block;
+        width: auto;
+        background-repeat: no-repeat;
+        background-size: 66px 65px;
+        top: -2px;
+        left: 35px;
+        position: relative;
+    }
+    
+    .employee-engagement-ideas-text{
+        font-size: 1rem;
+        text-align: start;
+        padding-top: 12px;
+    }
+}

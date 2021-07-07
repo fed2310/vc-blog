@@ -1,0 +1,318 @@
+
+.results-wrapper .header{
+    padding: 0px;
+    margin: 0px;
+}
+
+.results-wrapper{
+    color: white !important;
+    padding: 20px;
+}
+
+/* sprites styles */
+.results-wrapper .icon, .card-button::before {
+    background-image: url('https://res.cloudinary.com/vantagecircle/image/upload/v1615446306/blog_images/roi/roi_sprite.png');
+    background-repeat: no-repeat;
+    background-size: 66px 408px;
+    width: 180px;
+    height: 55px;
+    margin: 0 auto !important;
+}
+
+
+.productivity-saving .icon{
+    background-position: 59px -8px;
+}
+
+.absenteeism-saving .icon{
+    background-position: 56px -62px;
+}
+
+.turnover-saving .icon{
+    background-position: 52px -116px;
+}
+
+/* top row styles */
+.first-row .header p{
+    font-size: 0.8rem;
+    margin-top: 10px;
+    margin-bottom: 2px;
+}
+
+.results-wrapper .header span{
+    background-color: var(--shadow);
+    border-radius: 21px;
+    padding: 1px 13px;
+}
+
+.results-wrapper .first-row h6{
+   font-size: larger;
+   color: white;
+   font-weight: 500;
+}
+
+.results-wrapper .first-row{
+    display: flex;
+    justify-content: space-around;
+}
+
+/* second row styles */
+.second-row .piggy-image{
+    background-image: url('../../../../../static/tools/roi/piggy.svg');
+    background-repeat: no-repeat;
+    background-size: 166px 224px;
+    width: 159px;
+    height: 175px;
+}
+
+.second-row .annual-saving-number h1{
+    color: var(--orange);
+    font-weight: 507 !important;
+    text-align: center;
+    line-height: 0px;
+    padding: 12px 0px 1px 0px;
+}
+
+.second-row .annual-saving-number h1{
+    color: var(--orange);
+    font-weight: 507 !important;
+    text-align: center; 
+    line-height: 0px;
+    padding: 12px 0px 1px 0px;
+    font-size: 2rem;
+}
+
+
+.annual-saving-subheading p{
+    font-size: 14px !important;
+    color: grey;
+    text-align: center;
+}
+
+.annual-saving-heading h3{
+    text-align: center;
+    font-weight: 500 !important;
+    letter-spacing: 2px;
+    color: white;
+    font-size: 22px;
+    line-height: 33px;
+}
+
+.annual-revenue-card{
+    background-color: var(--shadow) !important;
+    /* margin: 10px 20px; */
+    color: white !important;
+}
+
+.card-button-wrapper{
+    text-align: center;
+    padding-bottom: 20px;
+    position: relative;
+}
+
+.card-button{
+    background-color: transparent !important;
+    border: 1px solid white !important;
+    border-radius: 4px !important;
+    width: 100%;
+    margin: 0 auto !important;
+    white-space: wrap !important;
+    word-wrap: break-word;
+    transform: perspective(1px) translateZ(0);
+    transition-property: color;
+    transition: all .3s ease;
+}
+
+.results-wrapper a:hover, .btn:hover {
+    background-color: #5b3b97;
+    color: #fff;
+    transform: translateY(-2px);
+}
+
+
+.card-button::before{
+    background-position: -11px -349px;
+    background-size: 35%;
+}
+
+@media (max-width: 576px) {
+    .card-button::before{
+        background-image: none !important;
+    }
+}
+
+.card-button span{
+    letter-spacing: 0.6px;
+    word-spacing: 2px;
+    margin: 0 auto !important;
+}
+
+.arrow {
+   display: none;
+}
+
+.arrow-text{
+    display: none;
+}
+
+.card-subtitle p{
+    color: grey;
+    padding-top: 10px !important;
+    margin-top: 20px !important;
+    font-size: 14px !important;
+}
+
+.card-title span{ 
+    color: white !important;
+}
+
+.card-title h5, .card-title h1{
+    padding-bottom: 10px;
+    margin: 0px;
+    color: white;
+    font-size: 1.5em;
+    font-weight: 502;
+    /* padding: 0px 10px; */
+    letter-spacing: 1px;
+    line-height: 23px;
+}
+
+.card-title h1{
+    font-size: 2em;
+    padding-top: 25px !important;
+}
+
+.additional-revenue-text span{
+    font-size: 20px;
+}
+
+/* non-mobile styles */
+
+@media (min-width: 769px) {
+    .second-row .annual-saving-number h1{
+        color: var(--orange);
+        font-weight: 507 !important;
+        font-size: 70px;
+        text-align: center;
+        line-height: 0px;
+        padding: 12px 0px 1px 0px;
+    }
+    /* sprite positioning */
+    .productivity-saving .icon{
+        background-position: 58px -8px;
+    }
+    
+    .absenteeism-saving .icon{
+        background-position: 55px -67px;
+    }
+    
+    .turnover-saving .icon{
+        background-position: 60px -122px;
+    }
+    .mid-section .second-row-texts h1, .second-row-texts h3{
+        text-align: start !important;
+    }   
+    .card-title h5, .card-title h1{
+        padding: 0px 10px;
+    }
+    .annual-saving-subheading p{
+        text-align: start ;
+    }
+    .annual-revenue-card{
+        margin-top: 5rem !important;
+    }
+    .second-row .piggy-image{
+        margin-left: 0px !important;
+        margin-right: 0px !important;
+    }
+    .second-row .piggy-image{
+        background-size: 127px 245px; 
+    }
+
+    .additional-revenue-text span{
+        font-size: 30px;
+        line-height: 30px;
+    }
+    .card-button{
+        width: inherit;
+        padding-left: 40px;
+    }
+    .annual-revenue-card{
+        background-color: var(--shadow) !important;
+        margin: 10px 20px;
+        color: white !important;
+    }
+    .card-button.btn:hover:before {
+        height: 100%;
+    }
+    .arrow{
+        display: block;
+        position: absolute;
+        bottom: -17%;
+        right: 64%;
+    }
+    .arrow-text{
+        display: block;
+        position: absolute;
+        left: -85%;
+        top: 23%;
+        font-size: 12px;
+        opacity: 0.8;
+        width: 100px;
+    }
+}
+
+@media (min-width: 1228px){
+    .arrow{
+        display: block;
+        position: absolute;
+        bottom: -17%;
+        right: 89%;
+    }
+    .arrow-text{
+        bottom: -17%;
+        left: -57%;
+    }
+}
+
+@media (min-width: 1928px){
+    .arrow{
+        display: block;
+        position: absolute;
+        bottom: -17%;
+        right: 72%;
+    }
+    .arrow-text{
+        bottom: -17%;
+        left: -99%;
+    }
+
+}
+@media (min-width: 1737px){
+    .arrow-text{
+        left: -28%;
+        top:5%;
+    }
+}
+
+
+@media (min-width: 2128px){
+    .arrow-text{
+        left: -5%;
+    }
+}
+@media (min-width: 2328px){
+    .arrow-text{
+        left: -4%;
+    }
+}
+
+@media (min-width: 2520px){
+    .arrow-text{
+        left: 2vw;
+    }
+     .arrow{
+        bottom: -33%;
+        right: 66%;
+    }
+}
