@@ -4,8 +4,10 @@ export const filterLazyLoading = (post) => {
 }
 
 export const addLazyLoading = (post) => {
-    const regex = /<img/ig
-    const newPost =  post.html.replace(regex, '<img loading="lazy"')
-    return newPost
+    const regexImg = /<img/ig
+    const regexVid = /<iframe/ig
+    var post1 = post.html.replace(regexImg, '<img loading="lazy"')
+    var post2 = post1.replace(regexVid, '<iframe loading="lazy"')
+    // console.log(post2)
+    return post2
 }
-
